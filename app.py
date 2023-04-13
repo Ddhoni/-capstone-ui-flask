@@ -126,7 +126,7 @@ def index():
     result4 = str(figdata_png)[2:-1]
 
     # Tambahkan hasil result plot pada fungsi render_template()
-    return render_template('index.html', stats=stats, result=result, result2=result2, result3=result3)
+    return render_template('index.html', stats=stats, result=result, result2=result2, result3=result3,result4=result4)
 
 if __name__ == "__main__": 
     app.run(debug=True)
